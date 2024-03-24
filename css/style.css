@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #D6DCFD;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1.5rem;
+    background: #fff;
+    padding: 0 2rem;
+    width: 45rem;
+    height: 23rem;
+}
+
+form {
+    display: grid;
+    width: 20rem;
+}
+
+#section-2 p {
+    font-weight: 600;
+}
+
+form input, button {
+    margin-top: 1rem;
+    border-radius: .8rem;
+    border: none;
+    background: #D8D4D4;
+    padding: 0.8rem 0.7rem;
+    color: #000;
+    font-size: 14px;
+}
+
+#section-1 {
+    text-align: center;
+    display: grid;
+    justify-content: end;
+    padding: 2rem;
+}
+
+
+#section-1 img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1.5rem;
+    justify-self: center;
+}
+
+#section-1 p {
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+#section-1 span {
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#sign-in-btn {
+    background: #054ACF;
+    color: #fff;
+}
+
+#f-psw {
+    background: none;
+    color: #000;
+}
+
+input::placeholder {
+    color: black;
+}
